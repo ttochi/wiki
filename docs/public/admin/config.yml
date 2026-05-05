@@ -1,0 +1,31 @@
+backend:
+  name: github
+  repo: ttochi/wiki
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+# 미디어 파일 저장 경로 (문서 기준 상대 경로 사용)
+media_folder: docs/public/uploads
+public_folder: /uploads
+
+collections:
+  - name: ca
+    label: Computer Architecture
+    label_singular: 문서
+    folder: docs/CA
+    create: true
+    extension: md
+    fields:
+      - { label: 제목, name: title, widget: string }
+      - { label: 본문, name: body, widget: markdown }
+
+  - name: nlp
+    label: Natural Language Processing
+    label_singular: 문서
+    folder: docs/NLP
+    create: true
+    extension: md
+    fields:
+      - { label: 제목, name: title, widget: string }
+      - { label: 본문, name: body, widget: markdown }
