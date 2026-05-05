@@ -2,9 +2,8 @@ backend:
   name: github
   repo: ttochi/wiki
   branch: main
-  base_url: https://api.netlify.com
+  base_url: https://wiki.jjiny1127.workers.dev
   auth_endpoint: auth
-  site_domain: dreamy-lollipop-5b4ff2.netlify.app
 
 # 미디어 파일 저장 경로 (문서 기준 상대 경로 사용)
 media_folder: docs/public/uploads
