@@ -4,6 +4,7 @@ export default defineConfig({
   title: "ttochi's Wiki",
   description: '개인 공부 기록 및 지식 정리',
   lang: 'ko-KR',
+  base: '/wiki/',
 
   themeConfig: {
     nav: [
