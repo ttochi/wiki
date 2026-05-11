@@ -5,6 +5,7 @@ import { resolve } from 'path'
 const CATEGORY_NAMES: Record<string, string> = {
   CA: 'Computer Architecture',
   NLP: 'Natural Language Processing',
+  'AI-Agents': 'AI Agent Ecosystem',
 }
 
 function getTitle(filePath: string, fileName: string): string {
